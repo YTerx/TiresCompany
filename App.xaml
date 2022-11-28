@@ -1,0 +1,12 @@
+﻿<Application x:Class="TiresCompany.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:TiresCompany"
+             StartupUri="MainWindow.xaml">
+    <Application.Resources>
+        <FontFamily x:Key="Courier_New">pack://aplication:,,,/Resources/Fonts/Courier_New.otf#Courier New</FontFamily>
+        <SolidColorBrush Color="#FFFFFF" x:Key="MainBGColor"/>
+        <SolidColorBrush Color="#D3D3D3" x:Key="SecondBGColor"/>
+        <SolidColorBrush Color="#A163F5" x:Key="ViewColor"/>
+    </Application.Resources>
+</Application>
